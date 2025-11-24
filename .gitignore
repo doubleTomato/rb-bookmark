@@ -1,0 +1,20 @@
+# -----------------
+# Node.js 관련
+# -----------------
+node_modules
+dist
+build
+npm-debug.log*
+
+# -----------------
+# 환경 변수 및 민감 정보
+# -----------------
+.env
+.env.*
+.DS_Store
+
+# -----------------
+# 기타
+# -----------------
+client/node_modules
+server/node_modules
