@@ -9,10 +9,10 @@ import Button from "@/src/components/ui/Button";
 
 export default function CardItem() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-        <Card className="w-[380px]">
+    <div className="h-auto bg-zinc-50 font-sans dark:bg-black">
+        <Card className="w-[320px]">
             <CardContent>
-              <p>이미지</p>
+              <div className="h-50 round-5 bg-red-50">img</div>
             </CardContent>
             <CardHeader>
               <CardTitle>제목</CardTitle>
